@@ -1274,11 +1274,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\PeterHellwege\\OneDrive - Allata\\Desktop\\Code\\DatingApp\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\PeterHellwege\\OneDrive - Allata\\Desktop\\Code\\DatingApp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "c:\\Users\\PeterHellwege\\OneDrive - Allata\\Desktop\\Code\\DatingApp\\API\\API.csproj",
+      "projectPath": "C:\\Users\\PeterHellwege\\OneDrive - Allata\\Desktop\\Code\\DatingApp\\API\\API.csproj",
       "packagesPath": "C:\\Users\\PeterHellwege\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\PeterHellwege\\OneDrive - Allata\\Desktop\\Code\\DatingApp\\API\\obj\\",
+      "outputPath": "C:\\Users\\PeterHellwege\\OneDrive - Allata\\Desktop\\Code\\DatingApp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PeterHellwege\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1288,6 +1288,7 @@
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
