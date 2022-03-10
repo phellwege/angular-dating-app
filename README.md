@@ -20,6 +20,8 @@ This is a Angular Dating Site
 ### Built with
 
 - Semantic HTML5 markup
+- C#
+- TypeScript
 - CSS
 - Flexbox
 - JavaScript
