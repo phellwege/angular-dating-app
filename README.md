@@ -1,5 +1,5 @@
 # DatingApp
-This is a Angular Dating Site
+This is a Angular Dating Site with nginx
 
 
 ## Table of contents
