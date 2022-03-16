@@ -1,9 +1,10 @@
 using API.Data;
 using API.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
-
+using System.Threading.Tasks;
 namespace API.Controllers;
     [ApiController]
 [Route("api/[controller]")]
@@ -15,13 +16,13 @@ public class UsersController : ControllerBase
         this.context = context;
     }
     [HttpGet]
-    public ActionResult<IEnumerable<AppUser>> GetUsers()
+    public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
     {
-        return context.Users.ToList();
+        return await context.Users.ToListAsync();
     }
     [HttpGet("{id}")]
-    public ActionResult<AppUser> GetUser(int id)
+    public async Task<ActionResult<AppUser>> GetUser(int id)
     {
-        return context.Users.Find(id);
+        return await context.Users.FindAsync(id);
     }
 }
