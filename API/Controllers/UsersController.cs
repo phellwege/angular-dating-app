@@ -22,6 +22,6 @@ public class UsersController : ControllerBase
     [HttpGet("{id}")]
     public ActionResult<AppUser> GetUser(int id)
     {
-        return context.Users.Find();
+        return context.Users.Find(id);
     }
 }
