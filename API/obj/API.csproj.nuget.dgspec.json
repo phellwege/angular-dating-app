@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PeterHellwege\\OneDrive - Allata\\Desktop\\Code\\DatingApp\\API\\API.csproj": {}
+    "C:\\Users\\PeterHellwege\\source\\repos\\angular-dating-app\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PeterHellwege\\OneDrive - Allata\\Desktop\\Code\\DatingApp\\API\\API.csproj": {
+    "C:\\Users\\PeterHellwege\\source\\repos\\angular-dating-app\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PeterHellwege\\OneDrive - Allata\\Desktop\\Code\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\PeterHellwege\\source\\repos\\angular-dating-app\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\PeterHellwege\\OneDrive - Allata\\Desktop\\Code\\DatingApp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\PeterHellwege\\source\\repos\\angular-dating-app\\API\\API.csproj",
         "packagesPath": "C:\\Users\\PeterHellwege\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PeterHellwege\\OneDrive - Allata\\Desktop\\Code\\DatingApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\PeterHellwege\\source\\repos\\angular-dating-app\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PeterHellwege\\AppData\\Roaming\\NuGet\\NuGet.Config",
