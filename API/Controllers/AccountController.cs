@@ -18,7 +18,7 @@ namespace API.Controllers
         public async Task<ActionResult<AppUser>> Register(string username, string password)
         {
             using var hmac = new HMACSHA512();
-
+            
             var user = new AppUser
             {
                 UserName = username,
