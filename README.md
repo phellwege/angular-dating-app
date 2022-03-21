@@ -24,6 +24,8 @@ This is a Angular Dating Site with nginx
 - TypeScript
 - CSS
 - Flexbox
+- Bootstrap
+- Angular Bootstrap
 - JavaScript
 - Angular
 - Dotnet
