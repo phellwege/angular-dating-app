@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Text;
 using System.Security.Cryptography;
 using API.DTOs;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 
@@ -16,20 +17,24 @@ namespace API.Controllers
             this.context = context;
         }
         [HttpPost("register")]
-        public async Task<ActionResult<AppUser>> Register(RegisterDto)
-        {
+        public async Task<ActionResult<AppUser>> Register(RegisterDto RegisterDto) {}
+        {   
             using var hmac = new HMACSHA512();
             
             var user = new AppUser
             {
-                UserName = username,
-                PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password)),
+                UserName = RegisterDto.UserName,
+                PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(RegisterDto.Password)),
                 PasswordSalt = hmac.Key
             };
             this.context.Users.Add(user);
             await this.context.SaveChangesAsync();
 
             return user;
+        }
+        private async Task<bool> UserExists(string username)
+        {
+            return await this.context.Users.AnyAsync(user => user.UserName == username.ToLower());
         }
     }
 }
