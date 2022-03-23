@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
 using System.Security.Cryptography;
+using API.DTOs;
 
 namespace API.Controllers
 
@@ -15,7 +16,7 @@ namespace API.Controllers
             this.context = context;
         }
         [HttpPost("register")]
-        public async Task<ActionResult<AppUser>> Register(string username, string password)
+        public async Task<ActionResult<AppUser>> Register(RegisterDto)
         {
             using var hmac = new HMACSHA512();
             
