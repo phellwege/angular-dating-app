@@ -17,7 +17,7 @@ namespace API.Controllers
             this.context = context;
         }
         [HttpPost("register")]
-        public async Task<ActionResult<AppUser>> Register(RegisterDto RegisterDto) {}
+        public async Task<ActionResult<AppUser>> Register(RegisterDto RegisterDto) 
         {   
             using var hmac = new HMACSHA512();
             
