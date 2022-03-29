@@ -12,6 +12,7 @@ namespace API.Controllers
 {
     public class AccountController : BaseApiController
     {
+        
         private readonly DataContext context;
         public AccountController(DataContext context) {
             this.context = context;
@@ -19,11 +20,13 @@ namespace API.Controllers
         [HttpPost("register")]
         public async Task<ActionResult<AppUser>> Register(RegisterDto RegisterDto) 
         {   
+            if (await UserExists(RegisterDto.UserName)) return BadRequest("Username is Unavailable");
+
             using var hmac = new HMACSHA512();
             
             var user = new AppUser
             {
-                UserName = RegisterDto.UserName,
+                UserName = RegisterDto.UserName.ToLower(),
                 PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(RegisterDto.Password)),
                 PasswordSalt = hmac.Key
             };
@@ -32,9 +35,23 @@ namespace API.Controllers
 
             return user;
         }
-        private async Task<bool> UserExists(string username)
+        [HttpPost("login")]
+        public async Task<ActionResult<AppUser>> Login(LoginDto loginDto) 
         {
-            return await this.context.Users.AnyAsync(user => user.UserName == username.ToLower());
+            var user = await this.context.Users
+                .SingleOrDefaultAsync(x => x.UserName == loginDto.UserName);
+            if (user == null) return Unauthorized("Invalid Username");
+            using var hmac = new HMACSHA512(user.PasswordSalt);
+            var ComputeHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(loginDto.Password));
+            for(int i = 0; i < ComputeHash.Length; i++)
+            {
+                if(ComputeHash[i] != user.PasswordHash[i]) return Unauthorized("Invalid Password");
+            }
+            return user;
+        }
+        private async Task<bool> UserExists(string UserName)
+        {
+            return await this.context.Users.AnyAsync(user => user.UserName == UserName.ToLower());
         }
     }
 }
