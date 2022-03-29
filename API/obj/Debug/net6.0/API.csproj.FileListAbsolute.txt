@@ -106,3 +106,7 @@ C:\Users\PeterHellwege\source\repos\angular-dating-app\API\obj\Debug\net6.0\refi
 C:\Users\PeterHellwege\source\repos\angular-dating-app\API\obj\Debug\net6.0\API.pdb
 C:\Users\PeterHellwege\source\repos\angular-dating-app\API\obj\Debug\net6.0\API.genruntimeconfig.cache
 C:\Users\PeterHellwege\source\repos\angular-dating-app\API\obj\Debug\net6.0\ref\API.dll
+C:\Users\PeterHellwege\source\repos\angular-dating-app\API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\PeterHellwege\source\repos\angular-dating-app\API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\PeterHellwege\source\repos\angular-dating-app\API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\PeterHellwege\source\repos\angular-dating-app\API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
