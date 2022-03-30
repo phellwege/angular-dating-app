@@ -33,7 +33,7 @@ This is a Angular Dating Site with nginx
 
 ### What I learned
 
-As my first Angular project I learned a great deal.
+As my first Angular project I learned a great deal. This is also the first time I've used DTO's and the process was really simple.
 
 ```css
 /* codeblock here */

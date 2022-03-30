@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Aspt2/T4SmxBlH1r8iM4ycGXsOuuXu97tyge56AW4E9gUAV0WOOanK94vX1AWLUNyb6jOvSgOQWLVhRiz5T/pQ==",
+  "dgSpecHash": "EhDF0SOq+hrfghHxX2YQLMXLJ1odqmA8frqQVHvCluBNozj0At+E76rJKTsdr9WRRB7wVmIUMCenpF57Cw7XgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PeterHellwege\\source\\repos\\angular-dating-app\\API\\API.csproj",
+  "projectFilePath": "c:\\Users\\PeterHellwege\\source\\repos\\angular-dating-app\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.3\\microsoft.aspnetcore.authorization.6.0.3.nupkg.sha512",
+    "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.3\\microsoft.aspnetcore.metadata.6.0.3.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.2\\microsoft.data.sqlite.core.6.0.2.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.2\\microsoft.entityframeworkcore.6.0.2.nupkg.sha512",
@@ -22,7 +24,7 @@
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.extensions.dependencymodel\\6.0.0\\microsoft.extensions.dependencymodel.6.0.0.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
-    "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.16.0\\microsoft.identitymodel.jsonwebtokens.6.16.0.nupkg.sha512",
