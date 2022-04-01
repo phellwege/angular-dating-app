@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "EhDF0SOq+hrfghHxX2YQLMXLJ1odqmA8frqQVHvCluBNozj0At+E76rJKTsdr9WRRB7wVmIUMCenpF57Cw7XgA==",
+  "dgSpecHash": "IyEDU72lLB2a/ZDe0y020PJl+iLrYo6iR6hjfHSeK3ApeJyhCx/ECvX66yKwRHcd+pdUmVcTwLb35vbYXgZc7g==",
   "success": true,
   "projectFilePath": "c:\\Users\\PeterHellwege\\source\\repos\\angular-dating-app\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.3\\microsoft.aspnetcore.authentication.jwtbearer.6.0.3.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.3\\microsoft.aspnetcore.authorization.6.0.3.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.3\\microsoft.aspnetcore.metadata.6.0.3.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -29,6 +30,8 @@
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.16.0\\microsoft.identitymodel.jsonwebtokens.6.16.0.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.identitymodel.logging\\6.16.0\\microsoft.identitymodel.logging.6.16.0.nupkg.sha512",
+    "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.10.0\\microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.16.0\\microsoft.identitymodel.tokens.6.16.0.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
