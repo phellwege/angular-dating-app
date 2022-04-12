@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "IyEDU72lLB2a/ZDe0y020PJl+iLrYo6iR6hjfHSeK3ApeJyhCx/ECvX66yKwRHcd+pdUmVcTwLb35vbYXgZc7g==",
+  "dgSpecHash": "7tVzT0cTuYX0x43/yeN+1+PoYrUvAvY2/YojFx9i+ozDhtQLA0c6khyCRfLJdcRZxnD95yG843D01JlkSHklVg==",
   "success": true,
   "projectFilePath": "c:\\Users\\PeterHellwege\\source\\repos\\angular-dating-app\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.3\\microsoft.aspnetcore.authentication.jwtbearer.6.0.3.nupkg.sha512",
+    "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.4\\microsoft.aspnetcore.authentication.jwtbearer.6.0.4.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.3\\microsoft.aspnetcore.authorization.6.0.3.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.3\\microsoft.aspnetcore.metadata.6.0.3.nupkg.sha512",
     "C:\\Users\\PeterHellwege\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
