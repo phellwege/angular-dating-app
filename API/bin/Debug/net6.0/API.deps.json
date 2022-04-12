@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "API/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.3",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.4",
           "Microsoft.AspNetCore.Authorization": "6.0.3",
           "Microsoft.EntityFrameworkCore.Design": "6.0.2",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.2",
@@ -27,14 +27,14 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.3": {
+      "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.4": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.10.0"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
-            "assemblyVersion": "6.0.3.0",
-            "fileVersion": "6.0.322.12401"
+            "assemblyVersion": "6.0.4.0",
+            "fileVersion": "6.0.422.17204"
           }
         }
       },
@@ -484,12 +484,12 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.3": {
+    "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yXadCTYfe0AhgVZxLhG4ltra1BhteDumot2YRtQLOpJIVIPzanNsbFjeXomXiWWiU8qWNrK++gGYox3DaJBThg==",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/6.0.3",
-      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.6.0.3.nupkg.sha512"
+      "sha512": "sha512-joDS3+lD1i9qcdFLWP4D316t3bHpezmTNOzbMIf9ZcRPX4QTuiUutZcQn/kZplf3BiLHqwUChZXxPjCAMKaKAQ==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/6.0.4",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.6.0.4.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/6.0.3": {
       "type": "package",
